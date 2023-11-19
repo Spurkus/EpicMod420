@@ -2,24 +2,28 @@
 	"schemaVersion": 1,
 	"id": "shicken-and-co",
 	"version": "${version}",
-	"name": "Shicken-and-Co",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Shicken and Co",
+	"description": "This is a Minecraft Mod for cool stuff!!",
 	"authors": [
-		"Me!"
+		"Spurkus",
+		"LickitySplitt"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Spurkus/EpicMod420",
+		"sources": "https://github.com/Spurkus/EpicMod420"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/shicken-and-co/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.pog.shicken.ShickenandCo"
+			"net.pog.shicken.ShickenAndCo"
+		],
+		"client": [
+			"net.pog.shicken.ShickenAndCoClient"
 		],
 		"fabric-datagen": [
-			"net.pog.shicken.ShickenandCoDataGenerator"
+			"net.pog.shicken.ShickenAndCoDataGenerator"
 		]
 	},
 	"mixins": [
