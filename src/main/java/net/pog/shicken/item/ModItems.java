@@ -12,11 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     // Add items below:
-    public static Item WEGG = registerItem("wegg", new Item(new FabricItemSettings()));
-
+    public static final Item WEGG = registerItem("wegg", new Item(new FabricItemSettings()));
+    public static final Item TacoBellCrunchSupreme = registerItem(("taco-bell-crunch-supreme"), new Item(new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         // Add item to entries below:
         entries.add(WEGG);
+        entries.add(TacoBellCrunchSupreme);
     }
 
     private static Item registerItem(String name, Item item) {
