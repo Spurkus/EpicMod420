@@ -12,7 +12,7 @@
 		"homepage": "https://github.com/Spurkus/EpicMod420",
 		"sources": "https://github.com/Spurkus/EpicMod420"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/shicken-and-co/icon.png",
 	"environment": "*",
 	"entrypoints": {
